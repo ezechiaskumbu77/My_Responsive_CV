@@ -13,11 +13,17 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
+    <!--iconic icons for bootstrap4-->
+    <link rel="stylesheet" href="open-iconic-master/font/css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="open-iconic-master/font/css/open-iconic-foundation.min.css">
+    <link rel="stylesheet" href="open-iconic-master/font/css/open-iconic-foundation.scss">
+    <link rel="stylesheet" href="ionic/css/open-iconic-bootstrap.styl">
+    <!--My fonts-->
     <!-- Your custom styles (optional) -->
     <link href="css/style.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-ofset="60px">
 
     <!--Main Navigation-->
     <header>
@@ -27,7 +33,7 @@
             <div class="container">
 
                 <!-- Brand -->
-                <a class="navbar-brand waves-effect" href="#" target="_blank">
+                <a class="navbar-brand waves-effect" href="#" target="">
                     <strong class="blue-text">My CV</strong>
                 </a>
 
@@ -42,38 +48,52 @@
                     <!-- Left -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link waves-effect" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
+                            <a class="nav-link waves-effect" href="#about" target="">Home</a>
+                            <span class="sr-only">(current)</span>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect" href="#about" target="_blank">About MDB</a>
+
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="#skills" target="">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="#experience" target="">Pofessional experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="#education" target="">Education</a>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link waves-effect" href="docs/Mon_CV2020.pdf" target="_blank">Free
-                              download</a>
+                                download</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free
-                tutorials</a>
-                        </li>
+
                     </ul>
 
                     <!-- Right -->
                     <ul class="navbar-nav nav-flex-icons">
                         <li class="nav-item">
-                            <a href="https://www.facebook.com/mdbootstrap" class="nav-link waves-effect" target="_blank">
+                            <a href="https://www.facebook.com" class="nav-link waves-effect" target="_blank">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://twitter.com/MDBootstrap" class="nav-link waves-effect" target="_blank">
+                            <a href="https://twitter.com" class="nav-link waves-effect" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link waves-effect" href="#portfolio" target="">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="#recommandations" target="">Recommandations</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="https://github.com/ezechiaskumbu77?tab=projects" class="nav-link border border-light rounded waves-effect" target="_blank">
-                                <i class="fab fa-github mr-2"></i>EzechiasKumbu_Project GitHub
+                                <i class="fab fa-github mr-2"></i>Projects GitHub
                             </a>
                         </li>
                     </ul>
@@ -252,7 +272,7 @@
 
 
                         <li>
-                            <div class="timeline-badge oi oi-briefcase">
+                            <div class="timeline-badge ">
 
                             </div>
                             <div class="timeline-badge oi oi-briefcase"><i class="fa fa-user"></i></div>
@@ -311,8 +331,12 @@
             </section>
 
             <!--Section: Education-->
-            <section class="text-center">
-
+            <section class="education-bloc text-center">
+                <div class="blue-divider">
+                </div>
+                <div class="heading">
+                    <h2 class="education-title">Education</h2>
+                </div>
                 <!--Grid row-->
                 <div class="row mb-4 wow fadeIn">
                     <!--Grid column-->
@@ -709,25 +733,25 @@
                 <!--1.First row-->
                 <div class="row align-itms-center">
                     <div class="col-sm-4 col-md-4 col-lg-4">
-                        <a href="http://www.facebook.com" class="thumbnail " target="_blank"><img src="images/20.7 facebook_share.png.png" alt="facebook_share" class=" hoverable"></a>
+                        <a href="http://www.facebook.com" class="thumbnail " target="_blank"><img src="img/20.7 facebook_share.png.png" alt="facebook_share" class=" hoverable"></a>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4">
-                        <a href="http://www.google.com" class="thumbnail" target="_blank"><img src="images/20.5 google_translate.png.png" alt="google_translate" class=" hoverable"></a>
+                        <a href="http://www.google.com" class="thumbnail" target="_blank"><img src="img/20.5 google_translate.png.png" alt="google_translate" class=" hoverable"></a>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4">
-                        <a href="http://www.twitter.com" class="thumbnail" target="_blank"><img src="images/20.1 twitter_video.png.png" alt="twitter_video" class=" hoverable"></a>
+                        <a href="http://www.twitter.com" class="thumbnail" target="_blank"><img src="img/20.1 twitter_video.png.png" alt="twitter_video" class=" hoverable"></a>
                     </div>
                 </div>
                 <!--2.Second row-->
                 <div class="row align-itms-center">
                     <div class="col-sm-4 col-md-4 col-lg-4">
-                        <a href="http://www.google.com" class="thumbnail" target="_blank"><img src="images/20.2 youtube.png.png" alt="youtube" class=" hoverable"></a>
+                        <a href="http://www.google.com" class="thumbnail" target="_blank"><img src="img/20.2 youtube.png.png" alt="youtube" class=" hoverable"></a>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4">
-                        <a href="http://www.twitter.com" class="thumbnail" target="_blank"><img src="images/20.8 twitter_retweet.png.png" alt="twitter_retweet" class=" hoverable"></a>
+                        <a href="http://www.twitter.com" class="thumbnail" target="_blank"><img src="img/20.8 twitter_retweet.png.png" alt="twitter_retweet" class=" hoverable"></a>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4">
-                        <a href="http://www.facebook.com" class="thumbnail" target="_blank"><img src="images/20.9 facebook_video.png.png" alt="facebook_video" class=" hoverable"></a>
+                        <a href="http://www.facebook.com" class="thumbnail" target="_blank"><img src="img/20.9 facebook_video.png.png" alt="facebook_video" class=" hoverable"></a>
                     </div>
                 </div>
             </div>
@@ -780,16 +804,16 @@
 
     <!--Footer-->
     <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
-
+        <a href="#about">
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        </a>
         <!--Call to action-->
         <div class="pt-4">
-            <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank" role="button">Download MDB
+
+            <a class="btn btn-outline-white" href="docs/Mon_CV2020.pdf" target="_blank" role="button">Download My CV
         <i class="fas fa-download ml-2"></i>
       </a>
-            <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start
-        free tutorial
-        <i class="fas fa-graduation-cap ml-2"></i>
-      </a>
+
         </div>
         <!--/.Call to action-->
 
@@ -797,35 +821,35 @@
 
         <!-- Social icons -->
         <div class="pb-4">
-            <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+            <a href="https://www.facebook.com" target="_blank">
                 <i class="fab fa-facebook-f mr-3"></i>
             </a>
 
-            <a href="https://twitter.com/MDBootstrap" target="_blank">
+            <a href="https://twitter.com" target="_blank">
                 <i class="fab fa-twitter mr-3"></i>
             </a>
 
-            <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+            <a href="https://www.youtube.com" target="_blank">
                 <i class="fab fa-youtube mr-3"></i>
             </a>
 
-            <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+            <a href="https://plus.google.com" target="_blank">
                 <i class="fab fa-google-plus-g mr-3"></i>
             </a>
 
-            <a href="https://dribbble.com/mdbootstrap" target="_blank">
+            <a href="https://dribbble.com" target="_blank">
                 <i class="fab fa-dribbble mr-3"></i>
             </a>
 
-            <a href="https://pinterest.com/mdbootstrap" target="_blank">
+            <a href="https://pinterest.com" target="_blank">
                 <i class="fab fa-pinterest mr-3"></i>
             </a>
 
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+            <a href="https://github.com/ezechiaskumbu77" target="_blank">
                 <i class="fab fa-github mr-3"></i>
             </a>
 
-            <a href="http://codepen.io/mdbootstrap/" target="_blank">
+            <a href="http://codepen.io" target="_blank">
                 <i class="fab fa-codepen mr-3"></i>
             </a>
         </div>
@@ -833,7 +857,7 @@
 
         <!--Copyright-->
         <div class="footer-copyright py-3">
-            © 2020 Copyright:Kumbu Kumbu Ezechias
+            © 2020 Copyright: Kumbu Kumbu Ezechias
 
             <!--/.Copyright-->
 
@@ -841,6 +865,8 @@
     <!--/.Footer-->
 
     <!-- SCRIPTS -->
+    <!--My JQuery-->
+    <script src="js/script.js"></script>
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <!-- Bootstrap tooltips -->
