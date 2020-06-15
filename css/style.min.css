@@ -1,0 +1,438 @@
+.card-comments img {
+    width: 4rem
+}
+
+
+/* ===================== GENERAL ===================== */
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.heading h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+#prof {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+section {
+    padding: 35px 0 80px 0;
+    text-align: center;
+}
+
+section .heading {
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+section .heading h2 {
+    text-transform: uppercase;
+}
+
+.red-divider {
+    width: 100px;
+    height: 3px;
+    background-color: #ee828cef;
+    margin: 0 auto;
+}
+
+.white-divider {
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+
+/* ===================== ABOUT ===================== */
+
+#about {
+    padding-top: 6.25rem;
+    background-color: #ee828cef;
+}
+
+.profile-picture {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+#about .heading h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#about .heading h3 {
+    color: black;
+}
+
+.button1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 3px solid white;
+    margin-top: 1.25rem;
+    padding: 1.125rem 3.125rem;
+    border-radius: 5px;
+    display: inline-block;
+    /*Etant donne qu'il s'agit d'un lien pour eviter aue le bouton se cole a la partie supperieure. */
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+    background: white;
+    color: #ee828cef;
+    text-decoration: none;
+}
+
+
+/* SKILLS*/
+
+#skills {
+    background-color: #ffffff;
+}
+
+#skills .heading h2 {
+    color: #ee828cef;
+}
+
+#skills .progress {
+    text-align: center;
+    height: 11%;
+    margin: 30px 30px;
+    backface-visibility: #dddddd;
+}
+
+#skills .progress-bar {
+    background-color: #e49ca3;
+}
+
+#skills .heading h5 {
+    text-shadow: 1px 1px 1px #000000;
+}
+
+
+/* PROFESSIONAL EXPERIENCES*/
+
+#experience {
+    background-color: #ee828cef;
+}
+
+#experience .heading h2 {
+    color: #ffffff;
+}
+
+.timeline {
+    padding: 30px 10px;
+    position: relative;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: white;
+    left: 50%;
+    margin-left: -2.5px;
+}
+
+.timeline li> {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline li .timeline-badge {
+    color: #ee828cef;
+    width: 50px;
+    line-height: 50px;
+    font-weight: 20px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: white;
+    ;
+    border-radius: 50%;
+}
+
+.timeline-panel-container {
+    width: 50%;
+    float: left;
+}
+
+.timeline-panel-container-inverted {
+    width: 50%;
+    float: right;
+}
+
+.timeline-panel {
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid white;
+    ;
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.175);
+    background-color: white;
+}
+
+.timeline-panel-container-inverted .timeline-panel {
+    float: left;
+    margin-left: 40px;
+}
+
+.timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid white;
+    border-right: 0 solid white;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline-panel-container-inverted .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline-heading h3 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.timeline-heading h4 {
+    color: #ee828cef;
+}
+
+
+/* EDUCATION */
+
+#education {
+    background-color: white;
+}
+
+#education .heading h2 {
+    color: #ee828cef;
+}
+
+.education-bloc {
+    width: 100%;
+    margin: 25px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 2px;
+}
+
+.education-bloc h5 {
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.education-bloc .oi {
+    font-size: 40px;
+}
+
+.education-bloc h3 {
+    color: #ee828cef;
+}
+
+.education-bloc h3 {
+    margin-bottom: 20px;
+}
+
+.education-bloc p {
+    font-weight: bold;
+}
+
+.education-bloc .red-divider {
+    margin-bottom: 20px;
+}
+
+
+/* PORTFOLIO */
+
+#portfolio {
+    background-color: #ee828cef;
+}
+
+#portfolio .heading h2 {
+    color: white;
+}
+
+.thumbnail {
+    margin: 25px auto;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+
+#portfolio .thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio .thumbnail img:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+#portfolio .thumbnail {
+    margin: 25px auto;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+
+
+/* RECOMMANDATIONS*/
+
+#recommandations {
+    background-color: white;
+}
+
+#recommandations .heading {
+    color: #ee828cef;
+}
+
+#recommandations .heading h2 {
+    color: #ee828cef;
+}
+
+#recommandations h3 {
+    text-align: center;
+    width: 100%;
+    color: #ee828cef;
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+#recommandations h4 {
+    text-align: center;
+    width: 100%;
+    color: #e49ca3;
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    background-color: none;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.carousel-indicators li {
+    border-color: #ee828cef;
+}
+
+.carousel-indicators li.active {
+    background-color: #ee828cef;
+}
+
+#myCarousel .container {
+    text-align: center;
+    max-width: 1430px;
+}
+
+#myCarousel .carousel-item {
+    height: 100%;
+    min-height: 550px;
+}
+
+#myCarousel .carousel-item {
+    width: 100%;
+    background-attachment: fixed;
+    height: 100%;
+    min-height: 550px;
+}
+
+#myCarousel .item {
+    padding: 40px 30px;
+}
+
+#myCarousel .item h3 {
+    background-color: #ee828cef;
+    font-style: italic;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease, -webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.carousel-fade .carousel-item {
+    opacity: 0;
+    -webkit-transition-duration: .6s;
+    transition-duration: .6s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity
+}
